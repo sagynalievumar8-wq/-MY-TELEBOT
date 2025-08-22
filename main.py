@@ -129,7 +129,7 @@ bot = telebot.TeleBot('7908516626:AAEh4hrWMMYcEJsHvQbiroyKyNqXywiwWOQ')
 #         for item, count in cart.items():
 #             price = products[item] * count
 #             result += f"{item} x{count} = {price}som\n"
-#             treding += price
+#            treding += price
 #         result += f"\nИтого: {treding}som  Спасибо за продукт хорошего дня."
 #         bot.send_message(call.message.chat.id, result)
 #     else:
