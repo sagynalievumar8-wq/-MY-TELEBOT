@@ -184,7 +184,14 @@ def songs(message):
 
 
 
+class Aiidibchik:
+    def __init__(self,name):
+        self.name = name
 
+        def get_info(self):
+            return self.name
+        A =Aiidibchik('Aidin')
+        print(A.get_info())
 bot.polling()
 
 
